@@ -1,0 +1,563 @@
+﻿
+
+﻿
+
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+ <meta charset="UTF-8">
+ <link rel="icon" href="gâteauChocolat.jpg">
+<title>Gâteaux délicieux</title>
+ 
+<style>
+     
+
+body {
+ 
+font-family: Arial, sans-serif;
+ 
+margin: 0;
+ 
+padding: 0;
+Background: #111;
+
+}
+
+
+header {
+
+ border-bottom: 1.5px solid #888;
+ top: 0; background-color: #000;
+
+ color: #fff;
+ padding: 20px;
+
+  text-align: center;
+
+}
+
+
+nav ul {
+ 
+list-style: none;
+
+ margin: 0;
+
+ padding: 0;
+
+ display: flex;
+
+ justify-content:
+ space-between;
+
+}
+
+
+nav li {
+ 
+margin-right: 20px;
+
+}
+
+
+nav a {
+
+ color: aqua;
+
+ text-decoration: none;
+
+}
+
+
+section {
+
+ padding: 20px;
+ Background: #222;
+}
+
+
+
+#gâteaux {
+Color: #fff;
+ background-color: #222;
+Border-top: 1px solid #777;
+}
+
+
+.gâteaux {
+
+ display: flex;
+
+ flex-wrap: wrap;
+
+ justify-content: center;
+}
+
+
+.gâteau {
+
+ margin: 20px;
+
+ width: 200px;
+
+ 
+}
+
+
+
+
+.gâteau h2 {
+
+ font-size: 18px;
+
+ margin-top: 10px;
+
+}
+
+
+.gâteau p {
+
+ font-size: 14px;
+
+ margin-bottom: 10px;
+
+}
+
+
+
+footer {
+
+ background-color: #333;
+
+ color: #fff;
+
+ padding: 10px;
+
+ text-align: center;
+
+ clear: both;
+
+}
+
+
+
+.container{
+
+ width: 100%;
+ max-width: 200px;
+ display: flex;
+ padding: 10px;
+ Overflow-X: auto;
+ scroll-snap-type: X mandatory;
+Height:200px ;
+   border-radius: 10px;
+
+    position: relative;
+
+}
+
+.item{
+
+ flex: 0 0 200px;
+ scroll-snap-align: star;
+ margin-right: 10px;
+  border-radius: 20px;
+ color: white;
+
+}
+
+
+.item img{
+   
+ width: 100%;
+ height: 100%;
+ border-radius: 10px;
+ object-fit: cover;
+
+}
+
+
+ 
+
+/* Style pour le formulaire */
+
+ form {
+
+ width: 50%;
+
+ margin: 40px auto;
+
+ padding: 20px;
+
+ border: 1px solid #ccc;
+
+ border-radius: 10px;
+
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+ }
+
+
+ label {
+
+ display: block;
+
+ margin-bottom: 10px;
+
+ }
+
+
+textarea {
+
+ width: 90%;
+
+ height: 40px;
+
+ padding: 10px;
+ margin-bottom: 20px;
+
+ border: 1px solid #ccc;
+Border-radius:20px;
+align-text: center;
+display: flex;
+justify-content: center;
+}
+ button {
+
+ width: 90%;
+
+ height: auto;
+
+ background-color: #4CAF50;
+Border-radius:20px;
+ color: #fff;
+
+ padding: 10px;
+
+ border: none;
+
+ border-radius: 10px;
+
+ cursor: pointer;
+
+ }
+
+
+ button:hover {
+
+ background-color: #3e8e41;
+
+ }
+a{
+    Text-decoration: none;
+    color: #fff;
+    
+}
+#accueil{
+    Background-image: url('gâteauChocolat.jpg');
+    Background-size: cover;
+    Background-position: 100%;
+}
+#contact{
+    Color:#fff;
+    Border-top: 1px solid #777;
+}
+h1{
+    Font-size: 30px;
+    Text-shadow: 0px 0px 10px cyan, 0px 0px 20px cyan, 0px 0px 30px cyan;
+    Font-weight: bold;
+}
+Span{
+    Font-size: 18px;
+    Font-weight: bold;
+    
+}
+Span1{
+    Font-size: 15px;
+    Font-weight: bold;
+    Color: cyan;
+}
+h2 {
+    Color: #fff;
+}
+
+body {
+ 
+font-family: Arial, sans-serif;
+ 
+margin: 0;
+ 
+padding: 0;
+Background: #111;
+
+}
+
+
+
+
+
+
+
+
+
+
+ 
+</style>
+
+</head>
+
+<body>
+ 
+ <header>
+ 
+<nav>
+ <ul>
+
+ <li><a href="#accueil">Accueil</a></li>
+
+ <li><a href="#gâteaux">Gâteaux</a></li>
+
+ <li><a href="#contact">Contact</a></li>
+
+ </ul>
+ 
+</nav>
+ 
+</header>
+
+ <section id="accueil">
+
+ <h1>Bienvenue chez Gâteaux délicieux ! </h1>
+ 
+<p style="color: #fff; font-weight: bold; font-size:2em; text-shadow: 0px 0px 10px red, 0px 0px 20px red, 0px 0px 30px red;">Nous proposons une variété de gâteaux délicieux pour tous les goûts et les occasions.</p>
+
+ </section>
+ <section id="gâteaux">
+
+ <h1>Nos gâteaux</h1>
+ <hr>
+<div class="gâteaux">
+
+ <div class="gâteau">
+  
+ <div class="container">
+     
+        
+<div class="item">
+ <img src="biscuit3.jpg" alt="biscuit">
+
+ </div>
+       
+<div class="item">
+ <img src="biscuit.jpg" alt="biscuit">
+
+ </div>
+        
+<div class="item">
+ <img src="biscuit1.jpg" alt="biscuit">
+
+ </div>
+       
+<div class="item">
+ <img src="biscuit2.jpg" alt="biscuit">
+
+ </div>
+ </div>
+ 
+<h2>👉 Biscuit langue de chat</h2>
+ <br>
+ 
+<p>des biscuits riches et délicieux.</p>
+ 
+<p><span>Prix :</span> <span1>À partir de 4000CFA</span1></p>
+ 
+
+
+ 
+<a href="https://wa.me/c/23791996594"><button>voir plus !</button></a> 
+
+ </div>
+ 
+ <div class="gâteau">
+
+ <div class="container">
+
+       
+<div class="item">
+ <img src="GâteauxM.jpg" alt="Gâteau ">
+
+ </div>
+ <div class="item">
+ <img src="GâteauxM1.jpg"  alt="Gâteau ">
+
+ </div>
+ <div class="item">
+ <img src="GâteauxM2.jpg" alt="Gâteau ">
+
+ </div>
+ <div class="item">
+ <img src="GâteauxM3.jpg" alt="Gâteau ">
+
+ </div>
+  <div class="item">
+ <img src="gâteaux10.jpg" alt="Gâteau ">
+
+ </div>
+ </div>
+ 
+<h2>👉 Marbré</h2>
+ <br>
+<p>Marbré léger et délicieux.</p>
+ 
+<p><span>Prix :</span> <span1>À partir de 3000CFA</span1></p>
+ 
+
+<a href="https://wa.me/c/23791996594"><button>voir plus !</button></a> 
+
+ </div>
+ 
+ <div class="gâteau">
+
+  <div class="container">
+
+ <div class="item">
+ <img src="gâteaux.jpg" alt="Gâteau ">
+
+ </div>
+ 
+<div class="item">
+ <img src="gâteaux1.jpg" alt="Gâteau ">
+ 
+</div>
+
+ <div class="item">
+ <img src="gâteaux2.jpg" alt="Gâteau ">
+
+ </div>
+ <div class="item">
+ <img src="gâteaux3.jpg" alt="Gâteau ">
+
+ </div>
+ <div class="item">
+ <img src="gâteaux4.jpg" alt="Gâteau ">
+
+ </div>
+ <div class="item">
+ <img src="gâteaux5.jpg" alt="Gâteau ">
+
+ </div>
+ <div class="item">
+ <img src="gâteaux6.jpg" alt="Gâteau ">
+
+ </div>
+ <div class="item">
+ <img src="gâteaux7.jpg" alt="Gâteau ">
+
+ </div>
+ <div class="item">
+ <img src="gâteaux8.jpg" alt="Gâteau ">
+
+ </div>
+ <div class="item">
+ <img src="gâteaux9.jpg" alt="Gâteau ">
+
+ </div>
+ 
+ </div>
+ 
+<h2>👉 Gâteau anniversaire, baptêmes et mariage.</h2>
+ 
+<p>Un gâteau classique et délicieux .</p>
+ 
+<p><span>Prix : </span> <span1>À partir de 5500CFA</span1></p>
+ 
+<a href="https://wa.me/c/23791996594"><button>voir plus !</button></a> 
+ 
+
+
+ </div>
+ 
+ </div>
+  
+
+ </section>
+  
+
+ <section id="contact">
+ 
+<h1>Contact</h1>
+<hr>
+ <p>Pour toute question ou commande, veuillez nous contacter à l'adresse suivante :
+</p>
+ <p><i><a href="mailto:abdallahsalahadine06@gmail.com"><span style="color: aqua; font-size:1.2em;">gâteauxdélicieux@gmail.com</span></a></i></p>
+ <p>Ou via WhatsApp :
+</p>
+ 
+
+ <form>
+
+  <label for="message">Message :</label>
+
+ <textarea id="message" name="message" placeholder="Entrez..."required>
+</textarea>
+
+
+ <button id="partager">Envoyez via WhatsApp</button>
+
+ </form>
+
+
+ </section>
+ 
+ 
+<footer>
+
+ <p>&copy; 2025 Gâteaux délicieux. Created by Salahadine.</p>
+ 
+</footer>
+ 
+<script>
+    
+  
+    
+    
+
+
+
+// Récupération des éléments du formulaire
+
+ const form = document.querySelector('form');
+
+ const nom = document.querySelector('#nom');
+
+ const telephone = +237691996594 ;
+
+ const message = document.querySelector('#message');
+
+ const partager = document.querySelector('#partager');
+
+
+ // Événement pour le bouton Partager
+ 
+partager.addEventListener('click', (e) => {
+
+ e.preventDefault();
+
+ const url = `https://wa.me/${telephone}?text=${message.value}`;
+
+ window.open(url, '_blank');
+
+ });
+ 
+    </script>
+
+</body>
+
+</html> 
+
+
+
+
+
+
+ 
